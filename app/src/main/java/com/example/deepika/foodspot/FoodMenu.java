@@ -1,10 +1,8 @@
 package com.example.deepika.foodspot;
 
 import android.app.ListActivity;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.LayoutInflater;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -15,15 +13,13 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.util.Log;
 
 import java.util.ArrayList;
-import java.util.zip.Inflater;
 
 
 public class FoodMenu extends ListActivity {
 
-    private String mess[]={"Paneer Paratha","Aloo Paratha", "Sandwich", "Fried Rice", "Dosa"};
+    private String mess[]={"Paneer Paratha","Aloo Paratha", "Sandwich", "Fried Rice", "Dosa", "Chocolate"};
     private int cost[]={100, 200, 50 ,100, 300};
     int total=0;
     CheckBox checkBox;

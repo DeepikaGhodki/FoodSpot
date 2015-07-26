@@ -19,7 +19,7 @@ import java.util.ArrayList;
 
 public class FoodMenu extends ListActivity {
 
-    private String mess[]={"Paneer Paratha","Aloo Paratha", "Sandwich", "Fried Rice", "Dosa", "Chocolate", "Ice- cream"};
+    private String mess[]={"Paneer Paratha","Aloo Paratha", "Sandwich", "Fried Rice", "Dosa", "Chocolate", "Onion Paratha" "Ice- cream"};
     private int cost[]={100, 200, 50 ,100, 300};
     int total=0;
     CheckBox checkBox;
